@@ -1,0 +1,96 @@
+Library: D:\ShanghaiTech\ARTS1426\Project2\Studio\Temp\BurstOutput\Plugins\ARM\lib_burst_generated
+--platform=UWP
+--backend=burst-llvm-16
+--target=THUMB2_NEON32
+--global-safety-checks-setting=Off
+--meta-data-generation=False
+--dump=Function
+--float-precision=Standard
+--target-framework=NetFramework
+--assembly-defines=Assembly-CSharp;
+--assembly-defines=Microsoft.MixedReality.OpenXR;
+--assembly-defines=Microsoft.MixedReality.Toolkit.Async;
+--assembly-defines=Microsoft.MixedReality.Toolkit.Demos.Audio;
+--assembly-defines=Microsoft.MixedReality.Toolkit.Demos.Gltf;
+--assembly-defines=Microsoft.MixedReality.Toolkit.Demos.InspectorFields;
+--assembly-defines=Microsoft.MixedReality.Toolkit.Demos.UX.Interactables;
+--assembly-defines=Microsoft.MixedReality.Toolkit;
+--assembly-defines=Microsoft.MixedReality.Toolkit.Examples;
+--assembly-defines=Microsoft.MixedReality.Toolkit.Extensions.HandPhysics;
+--assembly-defines=Microsoft.MixedReality.Toolkit.Extensions.SceneTransitionService;
+--assembly-defines=Microsoft.MixedReality.Toolkit.Extensions.Tracking;
+--assembly-defines=Microsoft.MixedReality.Toolkit.Gltf;
+--assembly-defines=Microsoft.MixedReality.Toolkit.Providers.OpenXR;
+--assembly-defines=Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared;
+--assembly-defines=Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding;
+--assembly-defines=Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput;
+--assembly-defines=Microsoft.MixedReality.Toolkit.Providers.XRSDK;
+--assembly-defines=Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality;
+--assembly-defines=Microsoft.MixedReality.Toolkit.SDK;
+--assembly-defines=Microsoft.MixedReality.Toolkit.Services.CameraSystem;
+--assembly-defines=Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem;
+--assembly-defines=Microsoft.MixedReality.Toolkit.Services.InputAnimation;
+--assembly-defines=Microsoft.MixedReality.Toolkit.Services.InputSimulation;
+--assembly-defines=Microsoft.MixedReality.Toolkit.Services.InputSystem;
+--assembly-defines=Microsoft.MixedReality.Toolkit.Services.SceneSystem;
+--assembly-defines=Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem;
+--assembly-defines=Microsoft.MixedReality.Toolkit.Services.TeleportSystem;
+--assembly-defines=Mono.Security;
+--assembly-defines=mscorlib;
+--assembly-defines=netstandard;
+--assembly-defines=System.Configuration;
+--assembly-defines=System.Core;
+--assembly-defines=System;
+--assembly-defines=System.IO.Compression;
+--assembly-defines=System.Numerics;
+--assembly-defines=System.Numerics.Vectors;
+--assembly-defines=System.ObjectModel;
+--assembly-defines=System.Runtime;
+--assembly-defines=System.Runtime.InteropServices.WindowsRuntime;
+--assembly-defines=System.Runtime.Serialization;
+--assembly-defines=System.Runtime.WindowsRuntime;
+--assembly-defines=System.Runtime.WindowsRuntime.UI.Xaml;
+--assembly-defines=System.Xml;
+--assembly-defines=Unity.Burst;
+--assembly-defines=Unity.InputSystem;
+--assembly-defines=Unity.Mathematics;
+--assembly-defines=Unity.RenderPipelines.Core.Runtime;
+--assembly-defines=Unity.RenderPipelines.HighDefinition.Config.Runtime;
+--assembly-defines=Unity.RenderPipelines.HighDefinition.Runtime;
+--assembly-defines=Unity.TextMeshPro;
+--assembly-defines=Unity.Timeline;
+--assembly-defines=Unity.VisualEffectGraph.Runtime;
+--assembly-defines=Unity.VisualScripting.Core;
+--assembly-defines=Unity.VisualScripting.Flow;
+--assembly-defines=Unity.XR.ARFoundation;
+--assembly-defines=Unity.XR.ARFoundation.InternalUtils;
+--assembly-defines=Unity.XR.ARFoundation.VisualScripting;
+--assembly-defines=Unity.XR.ARSubsystems;
+--assembly-defines=Unity.XR.CoreUtils;
+--assembly-defines=Unity.XR.Management;
+--assembly-defines=Unity.XR.OpenXR;
+--assembly-defines=Unity.XR.OpenXR.Features.ConformanceAutomation;
+--assembly-defines=Unity.XR.OpenXR.Features.MetaQuestSupport;
+--assembly-defines=Unity.XR.OpenXR.Features.MockRuntime;
+--assembly-defines=Unity.XR.OpenXR.Features.OculusQuestSupport;
+--assembly-defines=Unity.XR.OpenXR.Features.RuntimeDebugger;
+--assembly-defines=UnityEngine;
+--assembly-defines=Vuforia.Unity.Engine;
+--assembly-defines=Vuforia.Unity.Wrapper;
+--assembly-defines=VuforiaScripts;
+--generate-link-xml=Temp\burst.link.xml
+--temp-folder=D:\ShanghaiTech\ARTS1426\Project2\Studio\Temp\Burst
+--key-folder=C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/MetroSupport
+--decode-folder=D:\ShanghaiTech\ARTS1426\Project2\Studio\Library\Burst
+--output=D:\ShanghaiTech\ARTS1426\Project2\Studio\Temp\BurstOutput\Plugins\ARM\lib_burst_generated
+--pdb-search-paths=Temp/ManagedSymbols/
+
+--method=Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[UnityEngine.Rendering.HighDefinition.WaterCPUSimulation+EvaluateDispersion, Unity.RenderPipelines.HighDefinition.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(UnityEngine.Rendering.HighDefinition.WaterCPUSimulation+EvaluateDispersion&, Unity.RenderPipelines.HighDefinition.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--d94c3c77a51a8e1538dd0ac1e369651b
+--method=Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[UnityEngine.Rendering.HighDefinition.HDGpuLightsBuilder+CreateGpuLightDataJob, Unity.RenderPipelines.HighDefinition.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(UnityEngine.Rendering.HighDefinition.HDGpuLightsBuilder+CreateGpuLightDataJob&, Unity.RenderPipelines.HighDefinition.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--a4c2ec930c204a2778e62382b0ccde22
+--method=UnityEngine.Jobs.IJobParallelForTransformExtensions+TransformParallelForLoopStruct`1[[UnityEngine.Rendering.HighDefinition.DecalSystem+UpdateJob, Unity.RenderPipelines.HighDefinition.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(UnityEngine.Rendering.HighDefinition.DecalSystem+UpdateJob&, Unity.RenderPipelines.HighDefinition.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--205ecd15c84b7379b0ca7cafa866a8fb
+--method=Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[UnityEngine.Rendering.HighDefinition.HDProcessedVisibleLightsBuilder+ProcessVisibleLightJob, Unity.RenderPipelines.HighDefinition.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(UnityEngine.Rendering.HighDefinition.HDProcessedVisibleLightsBuilder+ProcessVisibleLightJob&, Unity.RenderPipelines.HighDefinition.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--5d46967a31c03289f63ba4d1f9ba03ca
+--method=Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[UnityEngine.Rendering.HighDefinition.WaterCPUSimulation+InverseFFT, Unity.RenderPipelines.HighDefinition.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(UnityEngine.Rendering.HighDefinition.WaterCPUSimulation+InverseFFT&, Unity.RenderPipelines.HighDefinition.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--c6bc8d73a06cff998996825a245d0aa5
+--method=Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[UnityEngine.Rendering.HighDefinition.WaterSimulationSearchJob, Unity.RenderPipelines.HighDefinition.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(UnityEngine.Rendering.HighDefinition.WaterSimulationSearchJob&, Unity.RenderPipelines.HighDefinition.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--4f9f02a721acbab5835000b343586862
+--method=Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[UnityEditor.Rendering.HighDefinition.WaterAmplitudeEvaluator+ReductionStep, Unity.RenderPipelines.HighDefinition.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(UnityEditor.Rendering.HighDefinition.WaterAmplitudeEvaluator+ReductionStep&, Unity.RenderPipelines.HighDefinition.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--b76d483722f248ee9913b04da206318d
+--method=Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[UnityEngine.Rendering.HighDefinition.WaterCPUSimulation+PhillipsSpectrumInitialization, Unity.RenderPipelines.HighDefinition.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(UnityEngine.Rendering.HighDefinition.WaterCPUSimulation+PhillipsSpectrumInitialization&, Unity.RenderPipelines.HighDefinition.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--bb18db5126ee43f952fa01d21301f8d7
+
